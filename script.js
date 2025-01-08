@@ -12,6 +12,11 @@
 
 // color2.addEventListener('input', setGradient);
 
+var _ = require('lodash');
+
+var array = [1,2,3,4,5,6,7,8];
+console.log('answer: ', _without(array, 3));
+
 const css = document.querySelector('h3');
 const [color1, color2] = document.querySelectorAll('.color')
 const body = document.querySelector('#gradient');
